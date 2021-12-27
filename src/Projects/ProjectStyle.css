@@ -28,8 +28,8 @@
     height: 100%;
     
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: 1.5fr 1fr;
     column-gap: 10px;
     row-gap: 10px;
 
@@ -40,18 +40,21 @@
     grid-column-start: 1;
     grid-column-end: 3;
     background-color: rgba(255, 235, 239, 0.95);
-    height: 295px;
+    height: 395px;
     border-radius: 5px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+   
 }
 .netflix
 {
-    height: 344px;
+    height: 394px;
     background-color: rgba(241, 243, 217, 0.95);
     border-radius: 5px;
 }
 .fieldo
 {
-    height: 344px;
+    height: 394px;
     background-color: rgba(255, 239, 220, 0.95);
     border-radius: 5px;
 }
@@ -63,4 +66,92 @@
     height: 295px;
     border-radius: 5px;
 
+}
+
+.descriptiontest
+{
+    padding: 30px 70px 30px 90px;
+    display: grid;
+    place-content: center;
+    
+}
+.descriptiontest p{
+    color: black;
+    text-align: left;
+    font-weight: 500;
+    font-size: 17px;
+}
+.descriptiontest h1
+{
+    color: #000000;
+    font-weight: 700;
+    text-align: left;
+    font-size: 55px;
+}
+.imagetest
+{
+    
+    padding: 40px 30px 10px 0px;
+    width: 100%;
+    height: 100%;
+}
+
+.buttons 
+{
+    display: flex;
+    align-items: center;
+    width: 100%; 
+    padding: 0px 90px 10px 0px; 
+    
+    justify-content: space-between;
+    
+    
+}
+.netflix 
+{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+
+}
+
+.imageNetflix 
+{
+    padding: 0;
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.descriptionNetflix 
+{
+    padding: 3px 0px 10px 0px;
+}
+.descriptionNetflix h1
+{
+    font-weight: 700;
+    font-size: 46px;
+}
+.descriptionFieldo h1
+{
+    font-weight: 700;
+    font-size: 46px;
+}
+.descriptionNetflix h1, p
+{
+    text-align: left;
+    color: #000000;
+}
+.descriptionFieldo h1, p
+{
+    text-align: left;
+    color: #000000;
+    
+}
+
+.descriptionFieldo
+{
+    padding: 20px;
 }
