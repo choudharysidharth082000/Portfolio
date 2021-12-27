@@ -1,8 +1,13 @@
+import './MiddleStyle.css'
 const Middle = () =>
 {
     return (
         <div className="containorMiddleElement">
-            <h1>Hello world</h1>
+            <div className="innerMiddle">
+               <h1>Making <br />Moments <br />Memorable.</h1>
+
+            </div>
+            
         </div>
     )
 

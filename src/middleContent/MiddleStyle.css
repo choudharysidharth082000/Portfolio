@@ -6,9 +6,33 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-.containorMiddle 
+.containorMiddleElement 
 {
     width: 100%;
-    height: 500px;
-    background-color: red;
+    height: 100vh;
+    
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.innerMiddle 
+{
+    width: 100%;
+    height: 100%;
+    
+    padding-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+    
+   text-align: left;
+}
+.innerMiddle h1
+{
+    text-align: left;
+    color: black;
+    font-weight: 800;
+    font-size: 80px;
+
 }
