@@ -6,6 +6,7 @@ import HeroImage from "./HeroImage/HeroImage";
 import Content from "./ContentSection/Content.js";
 import Projects from "./Projects/Project.js";
 import Middle from "./middleContent/Middle.js"
+import Achievements from "./Achievments/Achievements.js";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Content />
       <Projects />
       <Middle />
+      <Achievements/>
     </div>
   );
 }

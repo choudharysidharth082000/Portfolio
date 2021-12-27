@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.containorAchievements
+{
+    width: 100%;
+    height: 150vh;
+    
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.innerAchievments
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 235, 239, 0.93);
+    position: relative;
+
+
+}
+.firstBox , .secondBox 
+{
+    height: 519px;
+    width: 442px;
+    border: 5px solid #000000;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+}
+.imageAchievemnts
+{
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    
+    width: 500px;
+    height: 300px;
+}
+.firstBox
+{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    
+}
+.secondBox
+{
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+.firstContent, .secondContent 
+{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.firstContent h1, .secondContent h1
+{
+    
+    text-align: left;
+    font-weight: 700;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.firstContent h1
+{
+    color: #3B4531;
+}
+.secondContent h1
+{
+    color: #7D643E;
+}
+.first_content 
+{
+    width: 100%;
+    height: 25%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.first_content h2
+{
+    font-size: 30px;
+    color: #705A47;
+    font-weight: 700;
+    
+    text-align: left;
+}
+.second_content h2
+{
+    font-size: 30px;
+    color: #631B1B;
+    font-weight: 700;
+    
+    text-align: left;
+
+}
+.second_content 
+{
+    width: 100%;
+    height: 25%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.third_content 
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+.third_content h1
+{
+    font-size: 50px;
+    color: #484041;
+    font-weight: 700;
+    
+    text-align: left;
+
+}
