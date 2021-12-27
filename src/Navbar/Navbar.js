@@ -1,35 +1,27 @@
-
-import './NavbarStyle.css'
-
-import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
-
+import '../Navbar/NavbarStyle.css'
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 const Navbar = () =>
 {
-    return(
-
-       <div className="containor w-100 bg-primary d-flex justify-content-center align-items-center">
-            <div className="innerContainor d-flex justify-content-between align-items-center">
-                <div className="imagecontainor">
-                        <img className='p-3 img-fluid' src="/LOGO.png" alt="" />
-
+    return (
+        <div className="containorNavbar mw-100">
+            <div className="innerContent d-flex justify-content-between align-items-center">
+                <div className="logoImage mw-100 d-flex align-items-center">
+                    <img className='img-fluid' src="logos/LogoUsed.svg" alt="" />                   
+                    
+                    
                 </div>
-                <div className="linksContainor d-flex  justify-content-center align-items-center">
-                        <ul className='d-inline'>
-                            <li><a href="#">Resume</a></li>
-                            <li><a href="#">Resume</a></li>
-                            <li><a href="#">Resume</a></li>
-                        </ul>
 
-                </div>
+             
+
+
             </div>
 
-       </div> 
-        
-
             
-        
+            
+        </div>
     )
-
 }
-export default Navbar;
+
+
+export default Navbar

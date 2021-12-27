@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 300;
+}
+.containorHero 
+{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+
+}
+.innerContainor
+{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.leftContainor
+{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    
+    
+    width: 50%;
+    padding: 10px;
+}
+span
+{
+    color: #FF5678;
+    
+}
+.leftContainor h1{
+
+    font-size: 60px;
+    text-align: left;
+    font-weight: bold;
+    color: #000000;
+
+}
+.rightContainor
+{
+    height: 100vh;
+    width: 100%;
+    
+    width: 50%;
+}
+.button1
+{
+    width: 218px;
+    height: 54px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: #000000;
+}
+.mainImage 
+{
+    height: 494.5px;
+    width: 516px;
+}
+.button
+{
+    width: 218px;
+    height: 54px;
+    outline: none;
+    
+    color: #000000;
+    border: 1px solid #000000;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: white;
+}
