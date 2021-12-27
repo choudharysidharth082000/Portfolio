@@ -5,6 +5,7 @@ import './App.css';
 import Navbar from './Navbar/Navbar'
 import HeroImage from './HeroImage/HeroImage'
 import Content from './ContentSection/Content.js'
+import Projects from './Projects/Project.js'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <HeroImage />
       <Content />
+      <Projects />
      
     </div>
   );
