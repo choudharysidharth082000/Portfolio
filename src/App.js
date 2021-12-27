@@ -1,11 +1,10 @@
-
-import './App.css';
+import "./App.css";
 
 //components
-import Navbar from './Navbar/Navbar'
-import HeroImage from './HeroImage/HeroImage'
-import Content from './ContentSection/Content.js'
-import Projects from './Projects/Project.js'
+import Navbar from "./Navbar/Navbar";
+import HeroImage from "./HeroImage/HeroImage";
+import Content from "./ContentSection/Content.js";
+import Projects from "./Projects/Project.js";
 
 function App() {
   return (
@@ -14,7 +13,6 @@ function App() {
       <HeroImage />
       <Content />
       <Projects />
-     
     </div>
   );
 }
