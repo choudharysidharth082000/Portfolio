@@ -17,7 +17,7 @@
   padding-right: 100px;
 }
 .innerContainor {
-  max-height: 100vh;
+  height: 100%;
   max-width: 100%;
 
   display: flex;
@@ -43,7 +43,7 @@ span {
   color: #000000;
 }
 .rightContainor {
-  height: 100vh;
+  height: 100%;
   width: 100%;
 
   width: 50%;
