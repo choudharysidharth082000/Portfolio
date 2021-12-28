@@ -39,7 +39,7 @@ function HeroImage() {
               animate={{ scale: [0, 1.2,1.1] }}
               transition={{ ease: "easeOut", duration: 2 }}
               className="img-fluid"
-              src="https://opendoodles.s3-us-west-1.amazonaws.com/ballet.svg"
+              src="/svg images/mainImage.svg"
               alt=""
             />
           </div>
