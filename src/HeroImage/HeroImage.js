@@ -1,4 +1,5 @@
 import "./Hero.css";
+import { motion } from 'framer-motion'
 function HeroImage() {
   return (
     <div className="containorHero">
@@ -14,7 +15,9 @@ function HeroImage() {
         </div>
         <div className="rightContainor">
           <div className="mainImage">
-            <img
+            <motion.img
+              animate={{ scale: [0, 1.2,1.1] }}
+              transition={{ ease: "easeOut", duration: 2 }}
               className="img-fluid"
               src="https://opendoodles.s3-us-west-1.amazonaws.com/ballet.svg"
               alt=""
