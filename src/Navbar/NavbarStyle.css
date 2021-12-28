@@ -14,6 +14,7 @@
     background-color: #000000;
     padding-left: 70px;
     padding-right: 70px;
+    
 }
 .innerContent
 {
@@ -66,5 +67,26 @@
     display: inline-block;
     color: white;
     text-decoration: white;
+    
+}
+
+/* media Queries  */
+@media screen and (max-width: 701px ) {
+    .containorNavbar 
+    {
+        
+        height: 78px;
+        
+        background-color: #000000e1;
+        
+        width: 100%;
+        
+        margin-bottom: 110px;
+    }
+    .innerContent
+    {
+        height: 78px;
+    }
+    
     
 }

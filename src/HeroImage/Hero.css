@@ -45,8 +45,10 @@ span {
 .rightContainor {
   height: 100%;
   width: 100%;
+  
+  margin-top: -10px;
 
-  width: 50%;
+  width: 55%;
 }
 .button1 {
   width: 218px;

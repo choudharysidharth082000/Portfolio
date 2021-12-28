@@ -15,8 +15,8 @@ function HeroImage() {
         <div className="rightContainor">
           <div className="mainImage">
             <img
-              className="img-fluid pt-5"
-              src="svg images/mainImage.svg"
+              className="img-fluid"
+              src="https://opendoodles.s3-us-west-1.amazonaws.com/ballet.svg"
               alt=""
             />
           </div>
