@@ -1,12 +1,15 @@
 import './MiddleStyle.css'
+import { motion } from 'framer-motion'
 const Middle = () =>
 {
     return (
         <div className="containorMiddleElement">
-            <div className="innerMiddle">
+            <motion.div
+                
+                className="innerMiddle">
                <h1>Making <br />Moments <br />Memorable.</h1>
 
-            </div>
+            </motion.div>
             
         </div>
     )
