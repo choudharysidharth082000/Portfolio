@@ -7,6 +7,7 @@ import Content from "./ContentSection/Content.js";
 import Projects from "./Projects/Project.js";
 import Middle from "./middleContent/Middle.js"
 import Achievements from "./Achievments/Achievements.js";
+import Footer from './Footer/Footer.js'
 
 function App() {
   return (
@@ -16,7 +17,8 @@ function App() {
       <Content />
       <Projects />
       <Middle />
-      <Achievements/>
+      <Achievements />
+      <Footer />
     </div>
   );
 }

@@ -13,8 +13,8 @@ const Projects = () => {
               type and scrambled it to make a type specimen book.
             </p>
             <div className="buttons">
-              <button className="button1 btn btn-primary">Preview</button>
-              <button className="button1 btn btn-primary">Github</button>
+              <button className="button1 btn btn-dark">Preview</button>
+              <button className="button1 btn btn-dark">Github</button>
             </div>
           </div>
           <div className="imagetest">
@@ -35,7 +35,7 @@ const Projects = () => {
               sequi! Quae, velit.
             </p>
             <div className="buttons">
-              <button className="pt-2 button1 btn btn-primary">Preview</button>
+              <button className="pt-2 button1 btn btn-dark">Preview</button>
             </div>
           </div>
           <div className="imageNetflix">
@@ -52,7 +52,7 @@ const Projects = () => {
               dicta natus ducimus ea, officiis eaque?
             </p>
             <div className="buttons">
-              <button className="btn btn-primary button1">Preview</button>
+              <button className="btn btn-dark button1">Preview</button>
             </div>
           </div>
           <div className="imagecontainor">
@@ -73,8 +73,8 @@ const Projects = () => {
               type and scrambled it to make a type specimen book.
             </p>
             <div className="buttons">
-              <button className="button1 btn btn-primary">Preview</button>
-              <button className="button1 btn btn-primary">Github</button>
+              <button className="button1 btn btn-dark">Preview</button>
+              <button className="button1 btn btn-dark">Github</button>
             </div>
           </div>
           <div className="imagePortfolio">
