@@ -7,9 +7,9 @@ const SecondHero = () =>
             <div className="innerSecond">
                 <div className="leftside">
                     <div className="headingLeft">
-                        <h1>Hi There, <br /> My name's Sidharth. I am Software Developer</h1>
+                        <h1>Hi There, <br /> My name's <span>Sidharth</span>. I am a Software Developer</h1>
                         <div className="buttons">
-                        <button className='m-2 btn btn-dark button'>Resume</button>
+                        <button className='m-2 btn btn-dark button1'>Resume</button>
                         <button className='m-2 btn btn-light button'>LinkedIn</button>
                         </div>
 
