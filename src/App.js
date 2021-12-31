@@ -2,18 +2,20 @@ import "./App.css";
 
 //components
 import Navbar from "./Navbar/Navbar";
-import HeroImage from "./HeroImage/HeroImage";
+import HeroImage from './HeroImage/HeroImage.js'
+
 import Content from "./ContentSection/Content.js";
 import Projects from "./Projects/Project.js";
 import Middle from "./middleContent/Middle.js"
 import Achievements from "./Achievments/Achievements.js";
+import SecondHero from './SecondHero/SecondHero.js';
 import Footer from './Footer/Footer.js'
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <HeroImage />
+      <SecondHero />          
       <Content />
       <Projects />
       <Middle />
