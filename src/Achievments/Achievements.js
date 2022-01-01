@@ -5,7 +5,10 @@ const Achievements = () =>
         <div className="containorAchievements">
             <div className="innerAchievments">
                 <div className="imageAchievemnts">
-                    <img className='img-fluid' src="/svg images/achievements.png" alt="" />
+                    <img className='img-fluid' src="https://opendoodles.s3-us-west-1.amazonaws.com/Doggie.svg" alt="" />
+                </div>
+                <div className="secondImageAchievements">
+                    <img className='img-fluid' src="https://opendoodles.s3-us-west-1.amazonaws.com/meditating.svg" alt="" />
                 </div>
                 <div className="firstBox">
                     <div className="firstContent">

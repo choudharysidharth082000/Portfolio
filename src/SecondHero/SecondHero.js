@@ -1,13 +1,25 @@
 import './Second.css'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import React, { useEffect } from 'react'
+import WOW from 'wowjs';
 const SecondHero = () =>
 {
+    useEffect(() => {
+        
+
+         new WOW.WOW({
+            live: false
+        }).init();
+
+
+    }, []);
+    
     return(
-        <div className="containorSecond">
+        <div className="containorSecond wow flipInY" data-wow-iteration="10">
             <div className="innerSecond">
                 <div className="leftside">
                     <div className="headingLeft">
-                        <h1>Hi There, <br /> My name's <span>Sidharth</span>. I am a Software Developer</h1>
+                        <h1 className="wow flipInY" data-wow-iteration="10" data-wow-delay="1s">Hi There, <br /> My name's <span>Sidharth</span>. I am a Software Developer</h1>
                         <div className="buttons">
                         <button className='m-2 btn btn-dark button1'>Resume</button>
                         <button className='m-2 btn btn-light button'>LinkedIn</button>

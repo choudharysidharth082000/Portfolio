@@ -12,7 +12,7 @@ const Footer = () => {
         </div>
         <div className="formFooter">
           <form action="">
-            <div class="form-group">
+            <div className="form-group">
               <input
                 type="email"
                 className="name form-control m-3"

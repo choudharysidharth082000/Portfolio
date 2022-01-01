@@ -38,8 +38,19 @@
     left: 40px;
     top: 40px;
     
-    width: 500px;
+    width: 450px;
     height: 300px;
+}
+.secondImageAchievements
+{
+    position: absolute;
+    height: 430px;
+    width: 430px;
+    right: 40px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .firstBox
 {
