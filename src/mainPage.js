@@ -1,15 +1,11 @@
-import Navbar from './Navbar/Navbar'
+import Navbar from "./Navbar/Navbar";
 
-
-const mainApp = () =>
-{
-    return (
-        <div className="containor">
-            <Navbar/>
-        </div>
-    )
-
-}
-
+const mainApp = () => {
+  return (
+    <div className="containor">
+      <Navbar />
+    </div>
+  );
+};
 
 export default mainApp;

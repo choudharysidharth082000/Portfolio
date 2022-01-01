@@ -1,9 +1,21 @@
 import "./ProjectStyle.css";
+import WOW from 'wowjs';
+import { useEffect } from "react";
 const Projects = () => {
+
+  useEffect(() =>
+  {
+    new WOW.WOW(
+      {
+        live: false
+      }
+    ).init();
+
+  },[])
   return (
     <div className="containorProjects mt-3">
       <div className="mainContentContainor">
-        <div className="testSeries">
+        <div className="testSeries wow slideInLeft" data-wow-offset="80" data-wow-delay="0.6">
           <div className="descriptiontest">
             <h1>Test Series App</h1>
             <p className="pt-3 pb-3">
@@ -25,7 +37,7 @@ const Projects = () => {
             />
           </div>
         </div>
-        <div className="netflix">
+        <div className="netflix wow slideInLeft" data-wow-offset="80" data-wow-delay="1">
           <div className="descriptionNetflix">
             <h1 className="pt-2 pb-2">Netflix Clone</h1>
             <p className="pb-2">
@@ -42,7 +54,7 @@ const Projects = () => {
             <img className="img-fluid" src="/svg images/Netflix.svg" alt="" />
           </div>
         </div>
-        <div className="fieldo">
+        <div className="fieldo wow slideInRight" data-wow-offset="80" data-wow-delay="0.8">
           <div className="descriptionFieldo">
             <h1 className="pt-2 pb-2">Fieldlo Desk</h1>
             <p className="pt-2 pb-2">
@@ -63,7 +75,7 @@ const Projects = () => {
             />
           </div>
         </div>
-        <div className="portfolio">
+        <div className="portfolio wow flipInY" data-wow-offset="80" data-wow-delay="1.2">
           <div className="descriptionPortfolio">
             <h1>Personal Portfolio</h1>
             <p className="pt-3 pb-3">
