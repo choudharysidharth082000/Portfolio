@@ -75,7 +75,7 @@ const Projects = () => {
             />
           </div>
         </div>
-        <div className="portfolio wow flipInY" data-wow-offset="80" data-wow-delay="1.2">
+        <div className="portfolio wow slideInLeft" data-wow-offset="80" data-wow-delay="1.2">
           <div className="descriptionPortfolio">
             <h1>Personal Portfolio</h1>
             <p className="pt-3 pb-3">
