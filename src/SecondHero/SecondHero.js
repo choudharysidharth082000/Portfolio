@@ -15,11 +15,11 @@ const SecondHero = () =>
     }, []);
     
     return(
-        <div className="containorSecond wow flipInY" data-wow-iteration="10">
+        <div className="containorSecond">
             <div className="innerSecond">
                 <div className="leftside">
                     <div className="headingLeft">
-                        <h1 className="wow flipInY" data-wow-iteration="10" data-wow-delay="1s">Hi There, <br /> My name's <span>Sidharth</span>. I am a Software Developer</h1>
+                        <h1 className="wow slideInLeft" data-wow-iteration="1">Hi There, <br /> My name's <span>Sidharth</span>. I am a Software Developer</h1>
                         <div className="buttons">
                         <button className='m-2 btn btn-dark button1'>Resume</button>
                         <button className='m-2 btn btn-light button'>LinkedIn</button>
@@ -29,7 +29,7 @@ const SecondHero = () =>
                 </div>
                 <div className="rightside">
                     <div className="containorImage">
-                        <img className='img-fluid' src="/svg images/mainImage.svg" alt="" />
+                        <img className='img-fluid wow tada' data-wow-iteration="1" src="/svg images/mainImage.svg" alt="" />
                     </div>
                 </div>
             </div>
