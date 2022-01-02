@@ -225,6 +225,30 @@
         
         height: 110%;
     }
+    .rightside
+    {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .leftside
+    {
+        
+        padding-top: 0;
+        margin-top: 0;
+    }
+
+    .containorImage
+    {
+        max-height: 320px;
+        margin: 0;
+        padding: 0;
+        max-width: 420px;
+        
+    }
     .headingLeft h1
     {
         font-size: 30px;

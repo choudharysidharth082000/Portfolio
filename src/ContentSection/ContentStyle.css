@@ -40,3 +40,17 @@
     font-size: 65px;
 
 }
+
+@media screen and (max-width: 626px)
+{
+    .containorContent
+    {
+        height: 420px;
+
+    }
+    .containorContent h1
+    {
+        font-size: 45px;
+    }
+
+}
