@@ -195,3 +195,42 @@
 
     }
 }
+
+/* media queries for mobile  */
+@media screen and (max-width: 638px)
+{
+    .containorSecond
+    {
+        padding-top: 100px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin: 0;
+        
+        height: 150vh;
+        
+    }
+    .innerSecond
+    {
+        height: 120vh;
+    }
+    .leftSide 
+    {
+        width: 100%;
+        
+        border: 1px solid black;
+
+    }
+    .headingLeft
+    {
+        
+        height: 110%;
+    }
+    .headingLeft h1
+    {
+        font-size: 30px;
+        padding-right:0 ;
+        padding-left: 0;
+    }
+    
+    
+}
