@@ -15,21 +15,21 @@ const Footer = () => {
             <div className="form-group">
               <input
                 type="email"
-                className="name form-control m-3"
+                className="name form-control m-2"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
                 placeholder="Name"
               />
               <input
                 type="email"
-                className="name email form-control m-3"
+                className="name email form-control m-2"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
                 placeholder="Email"
               />
               <input
                 type="email"
-                class="message form-control m-3"
+                class="message form-control m-2"
                 id="exampleInputEmail1"
                 aria-describedby="emailHelp"
                 placeholder="Message"

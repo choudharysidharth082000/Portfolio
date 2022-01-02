@@ -148,3 +148,136 @@
     text-align: left;
 
 }
+
+
+@media screen and (max-width: 625px)
+{
+    .containorAchievements
+    {
+        padding-left: 50px;
+        padding-right: 50px;
+        
+    }
+    .firstBox , .secondBox 
+    {
+        height: 250px;
+        width: 200px;
+        border: 4px solid black;
+    }
+    .imageAchievemnts
+    {
+        height: 250px;
+        width: 150px;
+        left: 20px;
+        top: 20px;
+    }
+    .secondImageAchievements
+{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    right: 20px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstBox
+{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    bottom: 140px;
+    
+}
+.secondBox
+{
+    position: absolute;
+    top: 120px;
+    right: 20px;
+    height: 350px;
+}
+.firstContent h1, .secondContent h1
+{
+    
+    text-align: left;
+    font-weight: 700;
+    font-size: 22px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.firstContent h1
+{
+    color: #3B4531;
+    
+}
+.secondContent h1
+{
+    color: #7D643E;
+    
+}
+.first_content 
+{
+    width: 100%;
+    height: 120px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.first_content h2
+{
+    font-size: 20px;
+    color: #705A47;
+    font-weight: 700;
+    
+    text-align: left;
+}
+.second_content h2
+{
+    font-size: 20px;
+    color: #631B1B;
+    font-weight: 700;
+    
+    text-align: left;
+
+}
+.second_content 
+{
+    width: 100%;
+    height: 95px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.third_content 
+{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+
+}
+.third_content h1
+{
+    font-size: 20px;
+    color: #484041;
+    font-weight: 700;
+    
+    text-align: left;
+
+}
+
+
+
+
+}
