@@ -6,13 +6,12 @@
   font-family: "Poppins", sans-serif;
 }
 .containorProjects {
-  
   width: 100%;
-  height: 100%;  
+  height: 100%;
   margin: 0px 0px 20px 0px;
   display: flex;
   padding-left: 100px;
-  padding-right: 100px;  
+  padding-right: 100px;
   justify-content: center;
   align-items: center;
 }
@@ -23,7 +22,7 @@
   display: grid;
   padding-top: 90px;
   grid-template-columns: 1.5fr 1fr;
-  
+
   column-gap: 30px;
   row-gap: 30px;
 }
@@ -164,4 +163,37 @@ p {
   display: flex;
   padding-left: 130px;
   width: 100%;
+}
+@media screen and (max-width: 825px) {
+  .containorProjects {
+    width: 100%;
+    height: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .mainContentContainor {
+    padding-top: 45px;
+    grid-template-columns: 1.5fr 1fr;
+
+    column-gap: 15px;
+    row-gap: 15px;
+  }
+  .testSeries {
+    background-color: red;
+    background-color: rgba(255, 235, 239, 0.95);
+    height: 295px;
+    border-radius: 2.5px;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  }
+  .testSeries p
+  {
+    font-size: 13px;
+  }
+  .testSeries h1
+  {
+    font-size: 40px;
+  }
+  
 }
