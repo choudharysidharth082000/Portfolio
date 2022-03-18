@@ -25,9 +25,9 @@ const SecondHero = () => {
           </div>
         </div>
         <div className="rightside">
-          <div className="containorImage">
+          <div className="containorImage p-3">
             <img
-              className="img-fluid wow tada"
+              className="img-fluid wow tada p-3"
               data-wow-iteration="1"
               src="/svg images/mainImage.svg"
               alt=""

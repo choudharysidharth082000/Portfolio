@@ -1,6 +1,26 @@
+$primary-color: black;
+@import 'loaders.css/src/animations/ball-grid-pulse.scss';
+
+.loader-hidden {
+  display: none;
+}
+.containorLoader
+{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.loader-active {
+  display: block;
+}
 .App {
   text-align: center;
   height: 100%;
+  position: relative;
 }
 html
 {

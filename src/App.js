@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 
 //components
 import Navbar from "./Navbar/Navbar";
@@ -10,10 +10,14 @@ import Middle from "./middleContent/Middle.js";
 import Achievements from "./Achievments/Achievements.js";
 import SecondHero from "./SecondHero/SecondHero.js";
 import Footer from "./Footer/Footer.js";
+import Loader from 'react-loaders'
 
 function App() {
   return (
     <div className="App">
+      {/* <div className="containorLoader">
+        <Loader type="ball-grid-pulse" />
+      </div> */}
       <Navbar />
       <SecondHero />
       <Content />

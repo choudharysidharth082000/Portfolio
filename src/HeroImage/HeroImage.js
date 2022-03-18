@@ -38,7 +38,7 @@ function HeroImage() {
               animate={{ scale: [0, 1.2, 1.1] }}
               transition={{ ease: "easeOut", duration: 2 }}
               className="img-fluid"
-              src="/svg images/mainImage.svg"
+              src="/svg images/main.gif"
               alt=""
             />
           </div>

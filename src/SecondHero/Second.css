@@ -10,8 +10,7 @@
 .containorSecond 
 {
     width: 100%;
-    height: 90vh;
-    
+    height: 90vh;    
     padding: 60px 100px 30px 100px;
 }
 .innerSecond 
@@ -204,14 +203,13 @@
         padding-top: 100px;
         padding-left: 50px;
         padding-right: 50px;
-        margin: 0;
-        
+        margin: 0;        
         height: 150vh;
         
     }
     .innerSecond
     {
-        height: 120vh;
+        height: 130vh;
     }
     .leftSide 
     {
